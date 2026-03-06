@@ -10,7 +10,7 @@ on:
       agent_description:
         description: 'Derek'
         required: true 
-        default: 'tahu AI Agent'
+        default: 'Derek AI Agent'
 
 jobs:
   verify:
