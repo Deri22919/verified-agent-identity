@@ -6,7 +6,7 @@ on:
       agent_name:
         description: 'Derek'
         required: true 
-        default: 'tahu'
+        default: 'Derek'
       agent_description:
         description: 'Derek'
         required: true 
