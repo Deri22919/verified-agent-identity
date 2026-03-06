@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       agent_name:
-        description: 'did:iden3:billions:main:2VvsaosZpTMGeTLD2VFq7wXoq61XAXVXzjaC6fxmed'
+        description: 'harvestlike'
         required: true
-        default: 'did:iden3:billions:main:2VvsaosZpTMGeTLD2VFq7wXoq61XAXVXzjaC6fxmed'
+        default: 'harvestlike'
       agent_description:
-        description: 'did:iden3:billions:main:2VvsaosZpTMGeTLD2VFq7wXoq61XAXVXzjaC6fxmed'
+        description: 'harvestlike'
         required: true
-        default: 'did:iden3:billions:main:2VvsaosZpTMGeTLD2VFq7wXoq61XAXVXzjaC6fxmed AI Agent'
+        default: 'harvestlike AI Agent'
 
 jobs:
   verify:
@@ -38,4 +38,4 @@ jobs:
 
       - name: Step 3 - Link Human to Agent
         run: |
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "did:iden3:billions:main:2VvsaosZpTMGeTLD2VFq7wXoq61XAXVXzjaC6fxmed", "description": "did:iden3:billions:main:2VvsaosZpTMGeTLD2VFq7wXoq61XAXVXzjaC6fxmed AI Agent"}'
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "harvestlike", "description": "harvestlike AI Agent"}'
