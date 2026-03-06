@@ -6,7 +6,7 @@ on:
       agent_name:
         description: 'tahu'
         required: true
-        default: 'cloud'
+        default: 'tahu'
       agent_description:
         description: 'tahu'
         required: true
