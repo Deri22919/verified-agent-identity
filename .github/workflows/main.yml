@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       agent_name:
-        description: 'billions:main:2VvsaosZpTMGeTLD2VFq7wXoq61XAXVXzjaC6fxmed'
+        description: 'Deri22919'
         required: true
-        default: 'billions:main:2VvsaosZpTMGeTLD2VFq7wXoq61XAXVXzjaC6fxmed'
+        default: 'Deri22919'
       agent_description:
-        description: 'billions:main:2VvsaosZpTMGeTLD2VFq7wXoq61XAXVXzjaC6fxmed'
+        description: 'Deri22919'
         required: true
-        default: 'billions:main:2VvsaosZpTMGeTLD2VFq7wXoq61XAXVXzjaC6fxmed'
+        default: 'Deri22919'
 
 jobs:
   verify:
@@ -38,4 +38,4 @@ jobs:
 
       - name: Step 3 - Link Human to Agent
         run: |
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "billions:main:2VvsaosZpTMGeTLD2VFq7wXoq61XAXVXzjaC6fxmed", "description": "billions:main:2VvsaosZpTMGeTLD2VFq7wXoq61XAXVXzjaC6fxmed AI Agent"}'
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "Deri22919", "description": "Deri22919 AI Agent"}'
