@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       agent_name:
-        description: 'harvestlike'
+        description: 'TestSkill'
         required: true
-        default: 'harvestlike'
+        default: 'TestSkill'
       agent_description:
         description: 'asc'
         required: true
-        default: 'harvestlike AI Agent'
+        default: 'TestSkill Human'
 
 jobs:
   verify:
