@@ -38,4 +38,4 @@ jobs:
 
       - name: Step 3 - Link Human to Agent
         run: |
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "harvestlike", "description": "harvestlike AI Agent"}'
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "TestSkill", "description": "TestSkill Human"}'
